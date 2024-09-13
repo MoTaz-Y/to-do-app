@@ -1,25 +1,28 @@
 .card {
-    border-radius: 12px;
-    overflow: hidden;
-  }
-  
-  .card-header {
-    background-color: #4a90e2;
-  }
-  
-  .list-group-item-success {
-    background-color: #e3f2fd; 
-  }
-  
-  .list-group-item-danger {
-    background-color: #ffebee;
-  }
-  
-  .btn-success {
-    background-color: #2ecc71; 
-  }
-  
-  .btn-danger {
-    background-color: #e74c3c; 
-  }
-  
+  border-radius: 16px;
+  background-color: #263238;
+}
+
+.card-header {
+  background-color: #1c313a;
+}
+
+.list-group-item-success {
+  background-color: #4caf50; /* لون أخضر للمهام المكتملة */
+  color: white;
+}
+
+.list-group-item-danger {
+  background-color: #ff5252; /* لون أحمر للمهام غير المكتملة */
+  color: white;
+}
+
+.card-body {
+  background-color: #2e3c41; /* لون خلفية داكن للكارد */
+}
+
+h4 {
+  font-family: "Roboto", sans-serif; /* تغيير الخط لخط حديث */
+  font-weight: 500;
+  text-transform: uppercase;
+}

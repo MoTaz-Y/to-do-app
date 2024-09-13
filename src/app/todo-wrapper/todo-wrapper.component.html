@@ -1,13 +1,15 @@
-<div class="container mt-4">
-  <div class="card shadow-lg">
-    <div class="card-header bg-primary text-white">
+<div class="container mt-5">
+  <div class="card bg-secondary shadow-lg border-0 rounded-lg">
+    <div class="card-header bg-dark text-white text-center py-3">
+      <h4 class="mb-0">Task Manager</h4>
       <app-header (add)="addTodo($event)"></app-header>
     </div>
-    <div class="card-body">
-      <note-list 
-        [todos]="todos" 
-        (delete)="deleteTodo($event)" 
-        (toggleCompletion)="toggleCompletion($event)">
+    <div class="card-body p-4">
+      <note-list
+        [todos]="todos"
+        (delete)="deleteTodo($event)"
+        (toggleCompletion)="toggleCompletion($event)"
+      >
       </note-list>
     </div>
   </div>
